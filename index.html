@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+
+  <form class="js-form py-5" method="post" >
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col-md-6 col-lg-12">
+          <div class="w-50 mx-auto text-center">
+            <h2 class="text-primary mb-3">FizzBuzz</h2>
+            <div class="input-group mb-4">
+              <input class="form-control" type="number">
+              <button class="btn btn-primary" type="submit">Check</button>
+            </div>
+            <div class="w-100 text-bg-info py-4 rounded-2 js-value">Value:</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <hr>
+
+  <form class="form-box py-4" method="post">
+    <div class="container">
+      <div class="w-50 mx-auto text-center mt-5">
+        <h2 class="text-info">Currency course</h2>
+      </div>
+      <div class="row w-75 mx-auto py-5 ">
+        <div class="col-4 border-1 rounded-2">
+          <div class="input-group">
+            <input class="form-control user-money " type="number" name="user_sum" placeholder="Your money(dollar)">
+            <button class="btn btn-success input-btn" type="submit">Next</button>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <select class="form-select" aria-label="Default select example">
+            <option selected hidden disabled>Open this select menu</option>
+            <option  value="11000">Dollar</option>
+            <option  value="11400">Euro</option>
+            <option  value="183">Rubl</option>
+            <option  value="80">Yuan</option>
+          </select>
+        </div>
+
+        <div class="col-4">
+          <div class="box py-1 border border-1 rounded-2 text-center">
+            <p class="mb-0 ">So'm: <span class="input-money"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+
+
+
+  <script src="./js/main.js"></script>
+
+</body>
+</html>
